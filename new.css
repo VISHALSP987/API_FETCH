@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    color:black;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.image-container{
+    width:500px;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width:auto;
+    height:auto;
+}
+#new_description{
+    font-size:20px;
+}
+@media (max-width:650px){
+    img{
+        width:100%;
+    }
+}
